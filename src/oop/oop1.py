@@ -17,3 +17,29 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+# My notes:
+# Class A = Vehicle
+# Class B = GroundVehicle, FlightVehicle
+# Class C = Car, Motorcycle, Starship, Airplane
+
+class Vehicle():
+    pass
+
+class GroundVehicle(Vehicle):
+    pass
+
+class FlightVehicle(Vehicle):
+    pass
+
+class Car(GroundVehicle):
+    pass
+
+class Motorcycle(GroundVehicle):
+    pass
+
+class Starship(FlightVehicle):
+    pass
+
+class Airplane(FlightVehicle):
+    pass
